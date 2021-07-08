@@ -68,13 +68,13 @@ const MainTab = ({ navigation, route }) => {
         }}
       />
       <Tab.Screen
-      name="ads"
+      name="Ads"
       component={Ads}
       options={{
         tabBarIcon: ({ focused }) =>
         TabBarIcon({
           focused,
-          name: focused ? 'person' : 'person-outline',
+          name: focused ? 'star' : 'star-outline',
         })
       }}
       />

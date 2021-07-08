@@ -118,40 +118,6 @@ const Signup = () => {
         </Card>
           : null
         }
-          <TouchableOpacity style={styles.container} onPress={() => {setModalVisible(true);}}>
-            <List.Icon icon="bullhorn" style={styles.item1} /><Text style={styles.item2} >Remove Ads</Text>
-          </TouchableOpacity>
-
-        {/**/}
-
-        <Modal
-          animationType="slide"
-          transparent={true}
-          visible={modalVisible}
-        >
-          <View style={styles.centeredView}>
-            <View style={styles.modalView}>
-              <Title style={styles.modalText}>
-                Watch Video Ads for remove ads
-              </Title>
-              <TouchableOpacity style={{ ...styles.openButton, backgroundColor: "#2196F3" }}
-                                onPress={() => {
-                                  initRewardAds();
-                                }}
-              >
-                <Text style={styles.textStyle}>Watch Ads</Text>
-              </TouchableOpacity>
-              <TouchableOpacity
-                style={{ ...styles.openButton, backgroundColor: "#2196F3" }}
-                onPress={() => {
-                  setModalVisible(false);
-                }}
-              >
-                <Text style={styles.textStyle}>Nope</Text>
-              </TouchableOpacity>
-            </View>
-          </View>
-        </Modal>
 
         {/**/}
 
