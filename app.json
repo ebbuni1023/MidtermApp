@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "Simple Chat",
+    "slug": "react-native-simple-chat",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#3679fe"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "bundleIdentifier": "com.jiyoung.simplechat",
+      "buildNumber": "1.0.0",
+      "supportsTablet": false,
+      "infoPlist": {
+        "NSPhotoLibraryUsageDescription": "The app accesses to photo library to upload your profile photo when you are signing up or updating the profile."
+      }
+    },
+    "android": {
+      "package": "com.jiyoung.simplechat",
+      "versionCode": 2,
+      "permissions": ["READ_EXTERNAL_STORAGE", "WRITE_EXTERNAL_STORAGE", "CAMERA"],
+      "icon": "./assets/android-icon.png",
+      "adaptiveIcon": {
+        "backgroundColor": "#3679fe",
+        "foregroundImage": "./assets/android-icon.png"
+      },
+      "config": {
+        "googleMobileAdsAppId":"ca-app-pub-6398170583638687~4984736089"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
