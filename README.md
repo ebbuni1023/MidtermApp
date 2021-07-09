@@ -18,7 +18,7 @@ To run this project, install it locally using expo:
 ```
 $ cd ./MidtermApp
 $ yarn install or npm install
-$ expo start
+$ expo start or yarn start
 and press a to android, i to ios
 ```
 
