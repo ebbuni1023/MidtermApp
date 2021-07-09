@@ -27,7 +27,7 @@ const App = () => {
 
   const _loadAssets = async () => {
     const imageAssets = cacheImages([
-      require('../assets/splash.png'),
+      require('../assets/smile.png'),
       ...Object.values(images),
     ]);
     const fontAssets = cacheFonts([]);
