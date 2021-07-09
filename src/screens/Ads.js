@@ -21,7 +21,7 @@ export default class Ads extends Component {
   }
 
   showInterstitial = async () => {
-    AdMobInterstitial.setAdUnitID('ca-app-pub-3940256099942544/1033173712'); // Test ID, Replace with your-admob-unit-id
+    AdMobInterstitial.setAdUnitID('ca-app-pub-3940256099942544/1033173712'); 
     
     try{
       await AdMobInterstitial.requestAdAsync();
@@ -35,10 +35,10 @@ export default class Ads extends Component {
   }
 
   showRewarded = async () => {
-    AdMobRewarded.setAdUnitID('ca-app-pub-3940256099942544/5224354917'); // Test ID, Replace with your-admob-unit-id
+    AdMobRewarded.setAdUnitID('ca-app-pub-3940256099942544/5224354917'); 
     
     try{
-    await AdMobRewarded.setAdUnitID('ca-app-pub-3940256099942544/5224354917'); // Test ID, Replace with your-admob-unit-id
+    await AdMobRewarded.setAdUnitID('ca-app-pub-3940256099942544/5224354917'); 
     await AdMobRewarded.requestAdAsync();
     await AdMobRewarded.showAdAsync();
     }
