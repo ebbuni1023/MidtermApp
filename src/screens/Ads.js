@@ -65,13 +65,13 @@ export default class Ads extends Component {
 
                 <AdMobBanner style={styles.bannerAd}
                 bannerSize="fullBanner"
-                adUnitID="ca-app-pub-3940256099942544/6300978111" // Test ID, Replace with your-admob-unit-id
+                adUnitID="ca-app-pub-3940256099942544/6300978111"
                 onDidFailToReceiveAdWithError={this.bannerError}
                 onAdViewDidReceiveAd = {this.bannerAdReceived} />
 
                 <PublisherBanner
                  bannerSize="mediumRectangle"
-                 adUnitID="ca-app-pub-3940256099942544/6300978111" // Test ID, Replace with your-admob-unit-id
+                 adUnitID="ca-app-pub-3940256099942544/6300978111"
                  onDidFailToReceiveAdWithError={this.bannerError}
                  onAdViewDidReceiveAd = {this.bannerAdReceived} />
                 

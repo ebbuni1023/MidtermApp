@@ -22,7 +22,7 @@
         "NSPhotoLibraryUsageDescription": "The app accesses to photo library to upload your profile photo when you are signing up or updating the profile."
       },
       "config":{
-        "googleMobileAdsAppId": "ca-app-pub-3940256099942544~3347511713"
+        "googleMobileAdsAppId": "ca-app-pub-5658959958739838~1740992627"
       }
     },
     "android": {
