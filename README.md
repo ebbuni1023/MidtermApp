@@ -24,4 +24,4 @@ and press a to android, i to ios
 
 ## Youtube Link
 * IOS - https://youtu.be/YwAoDx4bhqM
-* ANDROID -
+* ANDROID - https://youtu.be/71fXjvYZ1XM
